@@ -280,11 +280,69 @@ footer {
     border-top: 6px solid #4aaaa5;
 }
 
+/* Begin Media Queries */
 
+
+
+
+/* Over flow */
+@media screen and (max-width:980px) {
+    
+    body{
+        width:980px;
+    }
+    
+
+header {
+    height:10%;
+}
+
+.heading {
+    height:10%;
+    padding-bottom: 2%;
+}
+
+.header-menu {
+    margin-right: 10%;
+  
+}
+
+#main {
+    width:55%;
+    padding: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+  
+   
+    
+}
+
+#sidebar {
+    width: 21%;
+    margin-top: 5%;
+    margin-right:5%;
+  
+}
+
+img.image-left {
+    width: 100%;
+}
+
+
+
+footer {
+    /* position:static; */
+    padding: 1%;
+    height: 5%;
+    
+
+} 
+
+}
 
 /* tablet */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
     body{
         width:768px;
     }
@@ -296,6 +354,7 @@ header {
 .heading {
     height:10%;
     padding-bottom: 2%;
+    width:20%;
 }
 
 .header-menu {
@@ -352,132 +411,84 @@ footer {
 
 }
 
-/* end of media 768 */
+/* end of tablet 768 */
+
+
+
 
 /* iphone */
-@media screen and (max-width: 640px) {
-    body{
-        width:640px;
-    }
-    header {
-        height:10%;
-    }
-    .heading {
-        width:100%;
-        margin:0%;
-        height:10%;
-        padding-bottom: 2%;
-    }
+@media screen  and (max-width:640px) {
     
-    .header-menu {
-        margin-right: 10%;
-        width:100%;
-        text-align: center;
-        float: left;
-    }
-    
-    #main {
-        width: 75%;
-        padding: 5%;
-        margin-left: 5%;
-        margin-top: 5%;
-      
        
+    
+        body{
+            width:640px;
+        }
+        header {
+            height:10%;
+        }
+        .heading {
+            width:95%;
+            margin:0%;
+            height:10%;
+            padding-bottom: 2%;
+        }
         
-    }
-    
-    #sidebar {
-        width: 100%;
-        margin: 5%;
-      
-    }
-    
-    img.image-left {
-        width: 100%;
-    }
-    
-    
-    .icon1 {
-      
-        margin-left: 5%;
-        width:8%;
+        .header-menu {
+            margin-right: 10%;
+            width:100%;
+            text-align: center;
+            float: left;
+        }
         
-    }
-    
-    .icon2 {
-       width:8%;
-      
-    }
-    
-    
-    .icon3 {
-        width:8%;
+        #main {
+            width: 75%;
+            padding: 5%;
+            margin-left: 5%;
+            margin-top: 5%;
+          
+           
+            
+        }
+        
+        #sidebar {
+            width: 100%;
+            margin: 5%;
+          
+        }
+        
+        img.image-left {
+            width: 100%;
+        }
         
         
-    }
-    
-    footer {
-        position:static;
-        padding: 1%;
-        height: 5%;
+        .icon1 {
+          
+            margin-left: 5%;
+            width:8%;
+            
+        }
         
+        .icon2 {
+           width:8%;
+          
+        }
+        
+        
+        .icon3 {
+            width:8%;
+            
+            
+        }
+        
+        footer {
+            position:static;
+            padding: 1%;
+            height: 5%;
+            
+        
+        } 
+        
+        }
+    /* cut off iphone*/
     
-    } 
-    
-    }
-/* cut off */
-
-@media screen and (max-width: 980px) and (min-width: 768px) {
-    body{
-        width:980px;
-    }
-    
-
-header {
-    height:10%;
-}
-
-.heading {
-    height:10%;
-    padding-bottom: 2%;
-}
-
-.header-menu {
-    margin-right: 10%;
-  
-}
-
-#main {
-    width:55%;
-    padding: 5%;
-    margin-left: 5%;
-    margin-top: 5%;
-  
-   
-    
-}
-
-#sidebar {
-    width: 21%;
-    margin-top: 5%;
-    margin-right:5%;
-  
-}
-
-img.image-left {
-    width: 100%;
-}
-
-
-
-footer {
-    /* position:static; */
-    padding: 1%;
-    height: 5%;
-    
-
-} 
-
-}
-
-
